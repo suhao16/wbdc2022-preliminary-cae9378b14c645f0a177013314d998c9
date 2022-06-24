@@ -1,0 +1,32 @@
+18:24:03 [INFO] Training/evaluation parameters: Namespace(adam_epsilon=1e-06, batch_size=32, bert_cache='data/cache_roberta', bert_dir='/home/test/liuluyao/wxy/model/chinese-roberta-wwm-ext', bert_hidden_dropout_prob=0.1, bert_learning_rate=3e-05, bert_max_steps=30000, bert_seq_length=50, bert_warmup_steps=5000, best_score=0.5, ckpt_file='save/v1/best_model.bin', device='cuda', dropout=0.3, fc_size=512, frame_embedding_size=768, learning_rate=5e-05, max_epochs=3, max_frames=32, max_steps=50000, minimum_lr=0.0, n_gpu=1, num_workers=2, pre_model='../challenge-main/save/pretrain_model/best_pretrain_roberta_base_Epoch33_step546414_loss0.31313.bin', prefetch=16, print_steps=300, savedmodel_path='src/code1/save', se_ratio=8, seed=2022, test_annotation='../challenge-main/data/dataB/test_b.json', test_batch_size=256, test_output_csv='data/result_fintue.csv', test_zip_feats='../challenge-main/data/dataB/test_b.zip', train_annotation='../challenge-main/data/annotations/labeled.json', train_zip_feats='../challenge-main/data/zip_feats/labeled.zip', val_batch_size=256, val_ratio=0.1, vlad_cluster_size=64, vlad_groups=8, vlad_hidden_size=1024, warmup_steps=1000, weight_decay=0.01)
+18:54:03 [INFO] Epoch 0 step 300 eta 13:27:05: loss 3.374, accuracy 0.312
+19:23:45 [INFO] Epoch 0 step 600 eta 12:56:34: loss 2.087, accuracy 0.469
+19:53:27 [INFO] Epoch 0 step 900 eta 12:26:35: loss 1.554, accuracy 0.562
+20:23:12 [INFO] Epoch 0 step 1200 eta 11:57:01: loss 1.818, accuracy 0.594
+20:52:55 [INFO] Epoch 0 step 1500 eta 11:27:14: loss 1.858, accuracy 0.531
+21:22:38 [INFO] Epoch 0 step 1800 eta 10:57:31: loss 1.658, accuracy 0.625
+21:52:21 [INFO] Epoch 0 step 2100 eta 10:27:46: loss 1.745, accuracy 0.531
+22:22:05 [INFO] Epoch 0 step 2400 eta 09:58:02: loss 1.936, accuracy 0.469
+22:51:49 [INFO] Epoch 0 step 2700 eta 09:28:21: loss 2.180, accuracy 0.500
+23:04:45 [INFO] Epoch 0 step 2812: loss 1.343, {'lv1_acc': 0.7591, 'lv2_acc': 0.6391, 'lv1_f1_micro': 0.7591, 'lv1_f1_macro': 0.7212, 'lv2_f1_micro': 0.6391, 'lv2_f1_macro': 0.4205, 'mean_f1': 0.635}
+23:23:27 [INFO] Epoch 1 step 3000 eta 09:02:04: loss 1.427, accuracy 0.562
+23:53:13 [INFO] Epoch 1 step 3300 eta 08:31:55: loss 1.380, accuracy 0.688
+00:22:59 [INFO] Epoch 1 step 3600 eta 08:01:51: loss 0.980, accuracy 0.781
+00:52:43 [INFO] Epoch 1 step 3900 eta 07:31:46: loss 1.255, accuracy 0.750
+01:22:27 [INFO] Epoch 1 step 4200 eta 07:01:45: loss 0.982, accuracy 0.750
+01:52:12 [INFO] Epoch 1 step 4500 eta 06:31:46: loss 0.583, accuracy 0.750
+02:21:56 [INFO] Epoch 1 step 4800 eta 06:01:49: loss 0.851, accuracy 0.719
+02:51:41 [INFO] Epoch 1 step 5100 eta 05:31:53: loss 1.111, accuracy 0.625
+03:21:25 [INFO] Epoch 1 step 5400 eta 05:01:58: loss 1.030, accuracy 0.625
+03:45:26 [INFO] Epoch 1 step 5624: loss 1.271, {'lv1_acc': 0.7689, 'lv2_acc': 0.6506, 'lv1_f1_micro': 0.7689, 'lv1_f1_macro': 0.7523, 'lv2_f1_micro': 0.6506, 'lv2_f1_macro': 0.5183, 'mean_f1': 0.6725}
+03:53:02 [INFO] Epoch 2 step 5700 eta 04:32:59: loss 0.767, accuracy 0.688
+04:22:47 [INFO] Epoch 2 step 6000 eta 04:02:59: loss 0.866, accuracy 0.719
+04:52:33 [INFO] Epoch 2 step 6300 eta 03:33:00: loss 1.109, accuracy 0.750
+05:22:18 [INFO] Epoch 2 step 6600 eta 03:03:02: loss 0.431, accuracy 0.875
+05:52:03 [INFO] Epoch 2 step 6900 eta 02:33:06: loss 0.746, accuracy 0.781
+06:21:49 [INFO] Epoch 2 step 7200 eta 02:03:10: loss 0.579, accuracy 0.781
+06:51:33 [INFO] Epoch 2 step 7500 eta 01:33:15: loss 1.080, accuracy 0.750
+07:21:18 [INFO] Epoch 2 step 7800 eta 01:03:21: loss 0.687, accuracy 0.781
+07:51:03 [INFO] Epoch 2 step 8100 eta 00:33:27: loss 1.234, accuracy 0.719
+08:20:48 [INFO] Epoch 2 step 8400 eta 00:03:35: loss 0.472, accuracy 0.906
+08:26:11 [INFO] Epoch 2 step 8436: loss 1.405, {'lv1_acc': 0.764, 'lv2_acc': 0.6428, 'lv1_f1_micro': 0.764, 'lv1_f1_macro': 0.749, 'lv2_f1_micro': 0.6428, 'lv2_f1_macro': 0.5361, 'mean_f1': 0.673}
